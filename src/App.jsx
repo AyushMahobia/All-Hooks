@@ -1,5 +1,6 @@
 import './App.css'
 import State from './components/State'
+import UseEffect from './components/UseEffect'
 import UseReducer from './components/UseReducer'
 import UseRef from './components/UseRef'
 
@@ -10,7 +11,8 @@ function App() {
     <>
       {/* <State/> */}
       {/* <UseReducer/> */}
-      <UseRef/>
+      {/* <UseRef/> */}
+      <UseEffect/>
     </>
   )
 }

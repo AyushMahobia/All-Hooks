@@ -1,4 +1,5 @@
 import './App.css'
+import MockTest from './components/MockTest'
 import State from './components/State'
 import UseEffect from './components/UseEffect'
 import UseMemo from './components/UseMemo'
@@ -14,9 +15,9 @@ function App() {
       {/* <State/> */}
       {/* <UseReducer/> */}
       {/* <UseRef/> */}
-      {/* <UseEffect/> */}
+      <UseEffect/>
       {/* <UseLayoutEffect/> */}
-      <UseMemo />
+      {/* <MockTest /> */}
     </>
   )
 }
